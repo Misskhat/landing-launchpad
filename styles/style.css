@@ -37,10 +37,10 @@
 
 /* header style */
 
-.header{
-    background-image: url(../assets/hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+  background-image: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* nav style */
@@ -51,7 +51,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top:50px ;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -66,21 +66,53 @@ nav h3 a {
 
 /* banner style */
 
-.banner{
-    max-width: 905px;
-    margin: 0 auto;
-    text-align: center;
+.banner {
+  max-width: 905px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.banner h1{
-    margin-top: 158px;
-    color: #252432;
-    font-size: 65px;
-    font-weight: 700;
-    
+.banner h1 {
+  margin-top: 158px;
+  color: #252432;
+  font-size: 65px;
+  font-weight: 700;
 }
 
-.banner button{
-    margin-top: 37px;
-    margin-bottom: 154px;
+.banner button {
+  margin-top: 37px;
+  margin-bottom: 154px;
+}
+
+/* action style section */
+.action-wrapper {
+  max-width: 1140px;
+  margin: 116px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-text-title {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.action-description {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 23px 0;
+  max-width: 517px;
+}
+
+.action-img{
+  max-width: 403px;
+}
+
+.action-img img{
+  border-radius: 48px;
+  object-fit: cover;
 }
