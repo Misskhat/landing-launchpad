@@ -1,3 +1,63 @@
-h1{
-    background-color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+/* header style */
+
+.header{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav style */
+
+nav {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top:50px ;
+  padding-bottom: 50px;
+}
+
+nav h3 a {
+  color: #4e47ff;
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+nav button {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  padding: 12px 36px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  color: black;
+  background-color: yellow;
 }
