@@ -127,7 +127,7 @@ nav h3 a {
   padding: 50px 80px;
 }
 
-.user-info-wrapper{
+.user-info-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -137,7 +137,7 @@ nav h3 a {
   color: #4e47ff;
   font-size: 80px;
   font-weight: 700;
-  padding-top: 40px
+  padding-top: 40px;
 }
 
 .user-info p {
@@ -145,4 +145,46 @@ nav h3 a {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* User reviews style */
+
+.user-reviews{
+  max-width: 1140px;
+  margin: 137px auto;
+}
+.user-reviews h2{
+  text-align: center;
+}
+
+.reviews-wrapper{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-review{
+  /* max-width: 318px; */
+  background-color: rgba(211, 211, 211, 0.168);
+  padding: 24px;
+  border-radius: 14px;
+  
+}
+
+.user-review h4{
+  padding-top: 24px;
+  padding-bottom: 10px;
+}
+
+.author-info{
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-info img{
+  border-radius: 50%;
 }
