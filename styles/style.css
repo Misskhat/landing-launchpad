@@ -90,6 +90,10 @@ nav h3 a {
   margin-bottom: 154px;
 }
 
+body{
+  background-color: #F5F8FF;
+}
+
 /* action style section */
 .action-wrapper {
   max-width: 1140px;
@@ -196,7 +200,7 @@ nav h3 a {
   margin: 0 auto;
   text-align: center;
   padding: 71px 0;
-  background-color: rgba(211, 211, 211, 0.168);;
+  background-color: rgba(211, 211, 211, 0.168);
   border-radius: 14px;
 }
 
@@ -221,6 +225,76 @@ line-height: 120%;
   border-radius: 48px;
 }
 
+
+/* get in touch section style */
+.get-touch{
+  max-width: 1140px;
+  margin: 92px auto 71px;
+}
+
+.get-touch-wrapper{
+  padding: 0 71px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.get-touch-text h2{
+  color: #000;
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.get-touch-form label, .get-touch-form input{
+  display: block;
+}
+
+input[type="email"]{
+  width: 100%;
+  background: rgba(211, 211, 211, 0.168);
+  padding: 20px 32px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+input[type="text"]{
+  width: 100%;
+  background: rgba(211, 211, 211, 0.168);
+  padding: 20px 32px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+input[type="submit"]{
+  width: 100%;
+  background: #4e47ff;
+  color: white;
+  font-weight: 700;
+  line-height: 150%;
+  padding: 20px 32px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.30s;
+}
+input[type="submit"]:hover{
+  width: 100%;
+  background-color: yellow;
+  color:black;
+}
+
+textarea{
+  width: 100%;
+  background: rgba(211, 211, 211, 0.168);
+  padding: 20px 32px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
 
 
 
